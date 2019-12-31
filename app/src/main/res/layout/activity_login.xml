@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginActivity"
+    android:background="@drawable/galaxy"
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:paddingTop="15sp"
+        android:paddingBottom="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:fontFamily="@font/supercellmagic"
+        android:gravity="center"
+        android:text="APP MEMS\nMEASURE HEARTRATE"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+
+
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+android:textAlignment="center"
+
+        android:fontFamily="@font/supercellmagic"
+        android:text="Team Mems Sinh Hoc 2019:\nNguyen Son Tung\nTran Huu Ha\nTran Ngoc Hien"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/layoutContainer"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+
+            >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                >
+
+                <ImageButton
+                    android:id="@+id/sign_in_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/border"
+                    >
+
+                </ImageButton>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/start_measure_heart_rate"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/supercellmagic"
+                    android:textSize="16sp" />
+
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                >
+
+                <ImageButton
+                    android:id="@+id/introduction"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@null"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/border"
+
+                    >
+
+
+
+                </ImageButton>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/introduction"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/supercellmagic"
+                    android:textSize="16sp" />
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:background="@drawable/backgroundmin" />
+
+
+</LinearLayout>
+
+
